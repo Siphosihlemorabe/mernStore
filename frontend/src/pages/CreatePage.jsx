@@ -9,7 +9,7 @@ const CreatePage = () => {
     image: ""
   });
   
-  const toast = useToast(); // Move useToast here
+  const toast = useToast(); 
 
   const handleAddProduct = async () => {
     const { success, message } = await createProduct(newProduct);
